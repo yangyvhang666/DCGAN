@@ -1,2 +1,3 @@
 # DCGAN
 Pytorch_DCGAN
+这是一个Pytorch版本的DCGAN，包括了一个测试生成文件Generate.py,训练时训练DCGAN.py，需要新建几个文件夹存放训练的生成器模型和训练中的图片，还需要一个文件夹来储存Generate.py生成的图片，为了满足训练所需要的数据格式，训练图像先要使用img_class.py处理一下，当中有我训练好的一个生成人脸的模型，可以直接用Generate.py测试.
